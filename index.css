@@ -1,0 +1,159 @@
+body {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/main.png);
+    background-size: cover;
+    background-position: center;
+    display: block;
+   
+}
+
+.main_header {
+    display: flex;
+    justify-content:space-around;
+
+
+}
+
+.logo {
+    display: inline-flex;
+    margin-left: 100px;
+        margin-top: 25px;
+    
+}
+.er {
+    width: 37px;
+    height: 56px;
+}
+
+
+
+.menu {
+
+    text-transform: uppercase;
+    margin-top: 25px;
+
+
+}
+.main_header li{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.main_header a{
+    color:white;
+    text-decoration: none;
+
+}
+
+
+.sliders{
+    width: 100%;
+    height: 555px;
+    display:flex;
+    align-items:center;
+    
+     
+}
+.signleft{
+    flex:5%;
+    margin-left: 10px;
+    position:relative;
+   
+}
+.slider_nav{
+    flex:30%;
+}
+.text{
+    flex:30%;
+}
+.phones{
+    flex:20%;
+    
+}
+.signright{
+    flex:10%;
+}
+.phone_1{
+        margin-right: -100px;
+}
+.phone_2{
+      margin-right: -35px;
+    margin-left: 110px;
+}
+.icon{
+   margin-top: -50px;
+    margin-left: -25px;
+}
+
+.play{
+    margin-top: -48px;
+    margin-left: -33px;
+}
+.slider_nav_img1{
+    
+    margin-top: 540px;
+}
+.slider_nav_img2{
+      margin-top: 540px;
+    margin-left: -18px;
+}
+.signright{
+    flex:5%;
+    margin-left: 0px;
+}
+.signright img{
+    margin-left: 60px;
+}
+main{
+    width: 100%;
+    height: 700px;
+   
+}
+.aticles{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, #D500FF, #4F045E);
+    display: flex;
+    align-items:center;
+}
+.aticle{
+    flex:23%;
+    color: white;
+}
+i{
+    margin-top: -150px;
+    margin-right: 10px;
+    margin-left: 10px;
+     color: white;
+}
+main div a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+.updates{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    
+}
+.stars{
+    flex:50%;
+    
+    
+}
+.recent_updates{
+    flex:50%;
+}
+
+
+
